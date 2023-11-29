@@ -1,0 +1,741 @@
+body {
+    margin: 0;
+  }
+  
+
+  /* First Section */
+
+  .whit-box {
+    min-height: 815px;
+  }
+  
+  .img-divv {
+    width: 100%;
+    height: 748px;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    background-image: url(images/pexels-my-car-key-hero-17124738.jpg);
+    background-size: cover;
+  }
+
+
+  /* nav-bar */
+
+  .navvbr{
+    height : 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 13%;
+  }
+
+  .cal-nw {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+   
+    
+  }
+
+  .cal-nw img {
+    height: 37px;
+    width: 37px;
+    
+  }
+
+  .orange-icon {
+    filter: invert(85%) sepia(100%) saturate(946%) hue-rotate(-40deg) brightness(100%) contrast(95%);
+  }
+
+.cal-nw h2 {
+    color: white;
+    font-size: 1.8rem;
+}
+
+
+/* center logo in nav bar */
+
+.mainlgo img{
+    
+    width: 300px;
+    height: 110px;
+    
+    
+}
+
+.calbck {
+     width: 505px;
+     height: 55px;
+     background-color: #F5B41C;
+     display: flex;
+     align-items: center;
+     clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+
+.calbck h2{
+    color: white;
+    font-size: 1.8rem;
+    margin-left: 14%;
+}
+
+
+/* Title Box */
+
+.titlebbox {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 560px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 560px;
+
+}
+
+.titlebbox h1 {
+    color: white;
+    width: 560px;
+    font-size: 3.1em;
+
+}
+
+.carddd {
+     width: 167px;
+     height: 167px;
+     background-color:#C7CACB;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.carddd img {
+    width: 86px;
+    width: 75px;
+}
+
+.star-container {
+    display: flex;
+
+}
+
+
+.req-call-back {
+    height: 590px;
+    width: 470px;
+    background-color: #163F58;
+    border: 3px solid white;
+    position: absolute;
+    top: 210px;
+    left: 52%;
+    
+}
+
+.ribbon-top{
+  width: 150px;
+  height: 105px;
+  background-color: #F7C513;
+  position: absolute;
+  left: 16.45em;
+  top:  -0.2em;
+  
+  
+
+}
+
+
+.box-ribbon{
+    width: 150px;
+    height: 105.9px;
+    background-color: #163F58;
+    clip-path: polygon(50% 80%, 0% 100%, 100% 100%);
+    position: absolute;
+    bottom: -1px;
+    
+    
+}
+
+.callbck-title h2{
+  width: 9.625em;
+  color: white;
+  font-size: 30px;
+  margin-top: 28px;
+  margin-left: 40px;
+  
+}
+
+
+.callbck-title p{
+  color: white;
+  margin: 10px 40px 0;
+  font-size: 18px;
+}
+
+.ribbon-top h2{
+  text-align: center;
+  color:  #163F58;
+  font-size: 22px;
+}
+
+.form-box-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 2.5fr;
+  gap: 10px;
+  margin: 22px 40px 0;
+}
+
+.input-sizing {
+  height: 43px;
+}
+
+.last-input-sizing {
+  grid-column-end: span 2;
+}
+
+.req-call-back button{
+  width: 159px;
+  height: 44px;
+  background-color:  #F7C513;
+  color: white;
+  font-size: 20px;
+  
+}
+
+.req-form-footer{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  margin: 15px auto 10px;
+  color: white;
+
+}
+
+.checkbox-footer {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.checkbox-footer a{
+  color: white;
+}
+
+
+.cal-us-on{
+  width: 505px;
+     height: 55px;
+     background-color: #F5B41C;
+     display: flex;
+     align-items: center;
+     clip-path: polygon(0% 0, 90% 0, 100% 100%, 0 100%);
+     margin-top: 80px;
+     justify-content: end;
+     color: white;
+     gap: 27px
+
+}
+
+.cal-us-on-2{
+  background-color: #F5B41C;
+ 
+  width: 369px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  clip-path: polygon(0% 0, 90% 0, 100% 100%, 0 100%);
+  margin: 30px auto 0;
+
+}
+
+.cal-us-on-2 img{
+  filter: invert(100%); 
+}
+
+.cal-us-on-2 h2{
+  margin: 0;
+  color: white;
+}
+
+.cal-us-on img {
+  filter: invert(100%);
+}
+
+.cal-us-on h2 {
+  margin-right: 80px;
+}
+
+.section-2-whitebg-h2{
+  font-size: 30px;
+  color: #163F58;
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+}
+
+.carousel-block{
+  width: 1142px;
+  height: 355px;
+  margin: 0 auto ;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+
+.first-box{
+  width: 226px;
+  height: 296px;
+  background-color: #163F58;
+  color: white;
+}
+.first-box p{
+  font-size: 19px;
+  margin: 30px;
+}
+
+.rest-boxes{
+  width: 202px;
+  height: 264px;
+  border: 5px solid #163F58;
+  color: #163F58;
+  display: flex;
+  align-items: center;
+
+}
+
+.firstbox-img{
+  height: 110px;
+  transform: rotate(45deg);
+}
+
+.secondbox-img{
+  height: 100px;
+}
+
+.rest-boxes h3{
+  font-size: 25px;
+  margin:25px 15px 0;
+}
+
+
+.third-section-blubg{
+  clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+  background-color: #163F58;
+  
+  padding-top: 13%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 8%;
+  
+}
+
+.thrid-section-wtbg{
+  background-color: white;
+  position: relative;
+}
+
+.wtsapp-logo{
+  height: 100px;
+  position: absolute;
+  top: -3%;
+  right: 14%;
+ 
+}
+
+.third-sc-title{
+  width: 545px;
+  color: white;
+  text-align: center;
+  
+}
+
+.third-sc-title h2{
+  font-size: 35px;
+}
+
+.third-sc-title p{
+  font-size: 18px;
+}
+
+.third-section-flx{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.third-section-top-img{
+  width: 448px;
+  height: 325px;
+}
+
+.inside-btm-flx {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.crd1{
+  height: 195px;
+  width: 195px;
+  background-color: white;
+  text-align: center;
+  color: #163F58;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ border-bottom: 5px solid #F5B41C;
+
+}
+
+.crd1 h2{
+  font-size: 50px;
+  margin: 0;
+}
+
+.crd1 h3{
+  font-size: 23px;
+  width:80%;
+  margin: 20px auto;
+}
+
+.crd1 img{
+  height: 70px;
+  position: absolute;
+  bottom: -25px;
+  right: -25px;
+}
+
+
+.ext {
+  position: absolute;
+  left: 0;
+  bottom: 100px;
+}
+
+.company-lg-section{
+  
+  text-align: center;
+  padding:0 0; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company-lg-section h2{
+  color:#163F58;
+  font-size: 30px;
+  margin-top: 4%;
+}
+
+.company-lg-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  padding-top: 4%;
+  width: 872px;
+}
+
+.lg-crd{
+  
+  height: 174px;
+  
+
+}
+
+.lg-crd img{
+  height: 116px;
+}
+
+.fourth-section{
+  background-image: url(images/fourthsectionbg.png);
+  background-size: cover;
+
+  height: 500px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: white;
+  
+
+}
+
+.fourth-section h2{
+  margin-right: 15%;
+  margin-top: 6%;
+   width: 600px;  
+   font-size: 30px;
+}
+
+.fourth-section p{
+  width: 700px;
+  margin-right: 15%;
+  font-size: 18px;
+  margin-top: 3%;
+  line-height: 35px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1399px) {
+
+  body{
+    font-size: 11px;
+  }
+
+  .req-call-back{
+    left: 57%;
+    height: 580px;
+    width: 420px;
+  }
+
+  .cards{
+    width: 480px;
+  }
+
+  .carddd{
+    width: 130px;
+    height: 130px;
+  }
+
+  .ext{
+    bottom: 40px;
+  }
+
+  .ribbon-top{
+    left: 240px;
+  }
+ 
+}
+
+
+@media screen and (min-width: 1750px) {
+  
+  body{
+    font-size: 20px;
+  }
+  
+  .titlebbox{
+    width: 750px;
+  }
+
+  .titlebbox h1 {
+    width: 750px;
+  }
+
+  .img-divv{
+    height: 1050px;
+  }
+
+
+  .req-call-back{
+    left: 63%;
+    height: 680px;
+    width: 520px;
+  }
+
+  .callbck-title p {
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+
+  .req-form-footer button{
+    margin-top: 5%;
+  }
+
+
+  .cards{
+    width: 850px;
+  }
+
+  .carddd{
+    width: 260px;
+    height: 260px;
+  }
+
+  .navvbr{
+    height: 180px;
+    
+  }
+
+  .cal-nw h2 {
+    font-size: 38px;
+  }
+
+  .mainlgo img{
+    
+    width: 400px;
+    height: 190px;
+    
+    
+}
+
+.calbck h2 {
+  font-size: 38px;
+
+}
+
+.cal-us-on h2 {
+  font-size: 38px;
+}
+
+.section-2-whitebg-h2{
+  font-size: 48px;
+}
+
+.first-box {
+  width: 326px;
+  height: 396px;
+}
+
+.first-box p{
+  font-size: 27px;
+
+}
+
+.firstbox-img{
+  height: 180px;
+}
+
+.secondbox-img{
+  height: 180px;
+}
+
+.rest-boxes {
+  width: 302px;
+  height: 344px;
+  justify-content: center;
+}
+
+.rest-boxes h3{
+  font-size: 30px;
+}
+
+.carousel-block{
+  width: auto;
+  height: auto;
+
+}
+
+.cal-us-on-2{
+  width: 569px;
+  height: 85px;
+  margin-top: 10%;
+}
+
+
+.wtsapp-logo{
+  height: 180px;
+  top: -8%;
+}
+
+.third-section-blubg{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 17%;
+}
+
+.third-sc-title{
+  width: 645px;
+}
+
+.third-section-flx{
+  justify-content: space-around;
+  
+}
+
+.third-section-top-img{
+  width: 648px;
+  height: 525px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.crd1{
+  height: 290px;
+  width: 290px;
+  
+}
+
+.third-sc-title h2{
+  font-size: 55px;
+}
+
+.third-sc-title p{
+  font-size: 22px;
+}
+
+.crd1 h2{
+  font-size: 100px;
+ 
+}
+
+.crd1 h3{
+  font-size: 30px;  
+}
+
+.cal-us-on {
+  width: 569px;
+  height: 85px;
+
+}
+
+.crd1 img{
+  height: 120px;
+
+  bottom: -45px;
+  right: -45px;
+}
+
+.company-lg-section h2{
+  font-size: 50px;
+  margin-top: 5%;
+}
+
+.company-lg-container{
+  padding-top: 2%;
+  padding-bottom: 5%;
+  width: 1100px;
+}
+
+.fourth-section{
+  height: 700px;
+}
+
+.fourth-section h2{
+ 
+  margin-top: 4%;
+   width: 800px;  
+   font-size: 44px;
+}
+
+.fourth-section p{
+  font-size: 28px;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  line-height: 35px;
+}
+
+.calbck {
+  width: 569px;
+  height: 85px;
+}
+
+
+
+
+}
